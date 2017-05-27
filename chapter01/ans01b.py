@@ -2,7 +2,7 @@ print('Enter the value of N:')
 n=str(input())
 print('Enter the value of L:')
 l=int(input())
-if(n<0):
+if(int(n)<0):
     print('ERROR')
 elif(l>=len(n)):
     z='%0'+str(l)+'d'
