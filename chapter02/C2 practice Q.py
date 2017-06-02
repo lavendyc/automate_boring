@@ -66,8 +66,7 @@ for i in range (1,11):
 2.
 i=1
 while i <=10:
-    i=i+1
     print(i)
-
+    i=i+1
 Q14
-spam,bacon(£©
+spam,bacon(Â£Â©
