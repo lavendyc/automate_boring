@@ -1,18 +1,18 @@
 print('Please enter the value of N:')
-n=input()
-if n>=1 and n<=1000:
-    s=1
-    while s<=n:
-        for i in range(2,10000):
-            x=1
-            for j in range(2,i/2):
-                if i%j==0:
-                    x=0
-            if x==1:
-                s=s+1
-            print (str(i)+','),
-            break
-elif isinstance(n,str):
+n = str(input())
+if not n.isdigit():
     print('N should be a number between 1 and 1000, please try again.')
+elif int(n)>=1 and int(n)<=1000:
+    i = 2
+    for s in range(0,int(n)):
+        while i<10000:
+            result = True
+            for j in range(2,int(i**0.5)+1):
+                if int(i)%j == 0:
+                    result = False
+            if result == True:
+                print(str(i)+','),
+            i+=1
+            break
 else:
     print('N should be a number between 1 and 1000, please try again.')
