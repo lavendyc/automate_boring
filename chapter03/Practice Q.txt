@@ -1,0 +1,43 @@
+Q1.
+Make a programs shorter, eaiser to read, and eaiser to update.
+
+Q2.
+When the function is called.
+
+Q3.
+def
+
+Q4.
+function= def statement+code
+function call is used to execute the function.
+
+Q5.
+Only one global scope and no limited of number of local scopes.
+
+Q6.
+Variables are forgetten.
+
+Q7.
+return value = A value that a function call evaluate to.
+
+Q8.
+None
+
+Q9.
+have a line (global xxxx) at the top of a function.
+
+Q10.
+nonetype
+
+Q11.
+import the model(blablablblabla)
+
+Q12.
+spam.bacon()
+
+Q13.
+place in a try clause
+
+Q14.
+try clause - code might cause error.
+expect clause - if an error happens. 
