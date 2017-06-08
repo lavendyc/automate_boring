@@ -1,14 +1,14 @@
 def collatz(number):
-    while number!=1:
-        if number%2 == 0:
-            number = number//2
-            print number
-        elif number%2 == 1:
-            number = 3*number+1
-            print number
+    if number%2 == 0:
+       return number//2
+    elif number%2 == 1:
+       return 3*number+1
 
 try:
-    print ('Enter the number to Collatz:')
-    collatz(int(input()))
+    print 'Enter a number:'
+    number=input()
+    while number != 1:
+        number = collatz(number)
+        print number
 except ValueError:
-    print('Enter a valid integer')
+    print('Please enter again.')
