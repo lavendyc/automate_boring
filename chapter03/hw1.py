@@ -1,10 +1,10 @@
 def fabonacci(n):
-    if int(n) == 0:
+    if n == 0:
         return 0
-    elif int(n) == 1:
+    elif n == 1:
         return 1
     else:
-        return fabonacci(int(n)-1)+ fabonacci(int(n)-2)
+        return fabonacci(n-1)+ fabonacci(n-2)
     
 print 'Please enter the value of n'
 n = None
